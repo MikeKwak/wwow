@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.a9df69b9.js",
+    "static/media/image-removebg-preview.png": "/static/media/image-removebg-preview.e5487984cc88ba6f039d.png",
+    "static/media/marijuana-dispensary-products-illustration-1200x630-1085450290.jpg": "/static/media/marijuana-dispensary-products-illustration-1200x630-1085450290.d2171aaf5433a6d19d9b.jpg",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.a9df69b9.js.map": "/static/js/main.a9df69b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a9df69b9.js"
+  ]
+}

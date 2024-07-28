@@ -4,9 +4,7 @@ import GetInTouch from 'components/GetInTouch';
 import GetStarted from 'components/GetStarted';
 
 const MainPage: React.FC = () => {
-
-  useEffect(() => {
-  }, []);
+  useEffect(() => {}, []);
 
   return (
     <>

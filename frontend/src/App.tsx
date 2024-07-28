@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Auth0Provider } from '@auth0/auth0-react';
 import MainPage from './pages/MainPage';
-import LoginPage from './pages/LoginPage';
 import Layout from './layouts/main';
 import { CacheProvider } from '@emotion/react';
 import createCache from '@emotion/cache';
@@ -50,7 +48,6 @@ const App: React.FC = () => {
             <Layout>
               <Routes>
                 <Route path="/" element={<MainPage />} />
-                <Route path="/login" element={<LoginPage />} />
                 <Route path="/products" element={<ProductListPage />} />
                 <Route path="/product/:name" element={<ProductPage />} />
               </Routes>
